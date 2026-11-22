@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace JobLearning.Api.Controllers;
-
+// The [ApiController] attribute indicates that this class is an API controller, which provides automatic model validation and other features for handling HTTP requests and responses.
 [ApiController]
 // The [Route] attribute specifies the base route for all actions in this controller. 
 // In this case, it indicates that the controller will handle requests to the "api/courses" endpoint.
